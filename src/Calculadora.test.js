@@ -1,4 +1,4 @@
-import { sumar } from './Calculadora';
+import { sumar } from './calculadora';
 
 test('suma 2 + 3 es igual a 5', () => {
   expect(sumar(2, 3)).toBe(5);

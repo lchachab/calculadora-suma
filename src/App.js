@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-import { sumar } from './Calculadora';
+import { sumar } from './calculadora';
 
 function App() {
   const [num1, setNum1] = useState('');
@@ -8,6 +8,10 @@ function App() {
   const [resultado, setResultado] = useState(null);
 
   const sumarNumerosIngresados = () => {
+    if (num1 === '' || num2 === '') {
+      setResultado(null);
+      return;
+    }
     const suma = sumar(parseFloat(num1), parseFloat(num2));
     setResultado(suma);
   };
