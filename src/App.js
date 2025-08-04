@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-import { sumar } from './calculadora';
+import { sumar } from './Calculadora';
 
 function App() {
   const [num1, setNum1] = useState('');
