@@ -2,9 +2,9 @@
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import App from './App';
-import { sumar } from './calculadora';
+import { sumar } from './Calculadora';
 
-jest.mock('./calculadora', () => ({
+jest.mock('./Calculadora', () => ({
   sumar: jest.fn(),
 }));
 
