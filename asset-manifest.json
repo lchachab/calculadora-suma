@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/calculadora-suma/static/css/main.f855e6bc.css",
-    "main.js": "/calculadora-suma/static/js/main.136508b6.js",
+    "main.css": "/calculadora-suma/static/css/main.36fa221e.css",
+    "main.js": "/calculadora-suma/static/js/main.abe04678.js",
     "static/js/453.18170f1e.chunk.js": "/calculadora-suma/static/js/453.18170f1e.chunk.js",
+    "static/media/fa-solid-900.woff2": "/calculadora-suma/static/media/fa-solid-900.f54756da1f3d1b88887f.woff2",
+    "static/media/fa-brands-400.woff2": "/calculadora-suma/static/media/fa-brands-400.1f6bad931d92a0a52c45.woff2",
+    "static/media/fa-regular-400.woff2": "/calculadora-suma/static/media/fa-regular-400.5632c43107f4d3fa4806.woff2",
+    "static/media/fa-v4compatibility.woff2": "/calculadora-suma/static/media/fa-v4compatibility.24fc9d217708cb3f0362.woff2",
     "index.html": "/calculadora-suma/index.html",
-    "main.f855e6bc.css.map": "/calculadora-suma/static/css/main.f855e6bc.css.map",
-    "main.136508b6.js.map": "/calculadora-suma/static/js/main.136508b6.js.map",
+    "main.36fa221e.css.map": "/calculadora-suma/static/css/main.36fa221e.css.map",
+    "main.abe04678.js.map": "/calculadora-suma/static/js/main.abe04678.js.map",
     "453.18170f1e.chunk.js.map": "/calculadora-suma/static/js/453.18170f1e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.136508b6.js"
+    "static/css/main.36fa221e.css",
+    "static/js/main.abe04678.js"
   ]
 }
