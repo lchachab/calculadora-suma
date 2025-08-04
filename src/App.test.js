@@ -23,8 +23,8 @@ describe('App', () => {
 
     render(<App />);
 
-    const input1 = screen.getByPlaceholderText(/primer número/i);
-    const input2 = screen.getByPlaceholderText(/segundo número/i);
+    const input1 = screen.getByPlaceholderText(/ingresa el primer número/i);
+    const input2 = screen.getByPlaceholderText(/ingresa el segundo número/i);
     const boton = screen.getByText(/sumar/i);
 
     fireEvent.change(input1, { target: { value: '3' } });
@@ -32,13 +32,14 @@ describe('App', () => {
     fireEvent.click(boton);
 
     expect(sumar).toHaveBeenCalledWith(3, 5);
-    expect(screen.getByText(/resultado: 8/i)).toBeInTheDocument();
+    expect(screen.getByText(/resultado/i)).toBeInTheDocument();
+    expect(screen.getByText('8')).toBeInTheDocument();
   });
 
   test('no muestra resultado si los inputs están vacíos', () => {
     render(<App />);
     const boton = screen.getByText(/sumar/i);
     fireEvent.click(boton);
-    expect(screen.queryByText(/resultado:/i)).not.toBeInTheDocument();
+    expect(screen.queryByText(/resultado/i)).not.toBeInTheDocument();
   });
 });
