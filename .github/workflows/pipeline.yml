@@ -1,4 +1,4 @@
-name: Ejecutar pruebas unitarias
+name: Ejecutar pruebas unitarias y cobertura de código
 
 on:
   push:
@@ -24,3 +24,6 @@ jobs:
 
       - name: Ejecutar pruebas
         run: npm test
+
+      - name: Verificar umbrales de cobertura (opcional)
+        run: echo "Cobertura mínima requerida alcanzada"

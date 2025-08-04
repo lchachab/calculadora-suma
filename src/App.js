@@ -8,6 +8,10 @@ function App() {
   const [resultado, setResultado] = useState(null);
 
   const sumarNumerosIngresados = () => {
+    if (num1 === '' || num2 === '') {
+      setResultado(null);
+      return;
+    }
     const suma = sumar(parseFloat(num1), parseFloat(num2));
     setResultado(suma);
   };
