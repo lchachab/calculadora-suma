@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/calculadora-suma/static/css/main.f855e6bc.css",
+    "main.js": "/calculadora-suma/static/js/main.136508b6.js",
+    "static/js/453.18170f1e.chunk.js": "/calculadora-suma/static/js/453.18170f1e.chunk.js",
+    "index.html": "/calculadora-suma/index.html",
+    "main.f855e6bc.css.map": "/calculadora-suma/static/css/main.f855e6bc.css.map",
+    "main.136508b6.js.map": "/calculadora-suma/static/js/main.136508b6.js.map",
+    "453.18170f1e.chunk.js.map": "/calculadora-suma/static/js/453.18170f1e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.136508b6.js"
+  ]
+}
